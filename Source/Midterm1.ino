@@ -6,7 +6,7 @@
  * Created February 2017
  * By Melissa Bruno
  *
- * http://url/of/online/tutorial.cc
+ * Wiki: https://github.com/MelissaBruno/arduino-telegraph/wiki
  *
  */
 
