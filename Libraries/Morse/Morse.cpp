@@ -32,7 +32,7 @@ void MClass::clearLetter(){
 }
 
 /*
- * Returns alphabetic letter that correlates
+ * Returns alphanumeric symbol that correlates
  * to morse code value in String letter
  */
 String MClass::toMorseCode(){
