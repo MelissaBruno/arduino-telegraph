@@ -25,7 +25,6 @@ boolean backFlag;
 
 void setup(){
   control.SETUP();
-  Serial.begin(9600);
   sensorPin = A0;
   flag = false;
   backFlag = false;
