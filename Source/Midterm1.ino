@@ -10,7 +10,6 @@
  *
  */
 
-#include "LiquidCrystal.h"
 #include "Control.h"
 #include "Morse.h"
 
