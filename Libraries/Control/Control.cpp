@@ -16,8 +16,8 @@ ControlClass::ControlClass(){
  * Setup for LCD and cursor
  */
 void ControlClass::SETUP(){
-  lcd.begin(16, 2);
-  lcd.cursor();
+  lcd.begin(16, 2);             // Declares the size of the LCD (column, row)
+  lcd.cursor();                 // Displays a cursor line and cursor position
   cursorPosition = 0;
   cursorRow = 0;
 }
@@ -37,7 +37,7 @@ int ControlClass:: getCursorRow(){
 }
 
 /*
- * Moves cursor to the forward one position
+ * Moves cursor forward one position
  */
 void ControlClass::cursorForward(){
   cursorPosition++;
