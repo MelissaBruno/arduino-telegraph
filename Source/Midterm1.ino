@@ -38,7 +38,7 @@ void loop() {
   /*
    * Measuring the time that the photoresistor is exposed
    */
-  if(sensorValue > 300 && flag == false){
+  if(sensorValue > 300){
     startTime = millis();
     tone(7, 1250);
     flag = true;
